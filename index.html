@@ -1,0 +1,35 @@
+---
+layout: home-blog
+subtitle: 
+use-site-title: true
+---
+   {% for post in paginator.posts %} 
+ <div class="postList-item">
+                                <div class="cols">
+                                    <div class="col col-4-9">
+                                        <div class="textContent">
+                                            <h5>{{ post.date | date: "%-d" }} {{ post.date | date: "%B, %Y" }}</h5>
+                                             <a href="{{ post.url | prepend: site.baseurl }}"><h3>{{ post.title }} </h3></a>
+                                            <p>
+                                                 {{ post.excerpt | strip_html | truncatewords:30 }}
+                                            </p>
+                                            <p class="viewStory"><a href="{{ post.url | prepend: site.baseurl }}">View story</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="col col-1-18 col-empty"></div>
+
+                                     {% if post.image %}
+                                    <div class="col col-4-9">
+                                        <a href="{{ post.image }}">
+                                            <div class="imageContent imageContent-inline">
+                                                <img src="{{ post.image }}" width="1500" height="913" />
+                                            </div>
+                                        </a>
+                                    </div>
+                                    {% endif %}
+                                </div>
+                            </div>
+
+   {% endfor %}
+  
+                    

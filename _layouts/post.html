@@ -1,0 +1,99 @@
+---
+layout: jwblogdetail
+---
+
+
+
+
+
+
+
+ <div id="container">
+      <div class="page" view-controller="News" page-url="https://www.news.strategyhut.com/" parent-url="https://www.news.strategyhut.com" >
+    <div class="cont">
+
+    
+
+
+      <section>
+        
+<div class="introductionText introductionText-hasRightText introductionText-willFix">
+  <div class="introductionTextCont">
+          <h1>
+                  <a href="/"><span></span>
+                Back to News
+                  </a>
+              </h1>
+              <h2>
+       {% if page.title %}{{ page.title }}{% else %}{% endif %}
+      </h2>
+              <div class="textContent rightText rightText-caps">
+        <p>{{ page.date | date: "%B %-d, %Y" }}</p>
+      </div>
+    </div>
+</div>
+      </section>
+
+
+
+            <section class="section-newsPost  section-hasFixedEls">
+        <div class="cols">
+
+
+          <div class="col col-12 elToFix">
+            <div class="textContent ">
+         
+          {{ content }}
+            </div>
+          </div>
+
+          <div class="col col-1-18 col-empty"></div>
+
+                                     {% if post.image %}
+
+                                     <div class="col col-1-2 elToFix">
+              <div class="imageContent imageContent-inline">
+          <img src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" width="517" height="451" alt="{{ page.title }}"
+                  width="3112" height="2428" />
+
+
+              </div>
+              
+
+            </div>
+                                   
+                                    {% endif %}
+                  </div>
+      </section>
+
+       <br /> <br />
+
+
+
+                <section>
+                    <div class="joinTeam">
+                        <div class="textContent">
+
+                            <h4>
+                                Let us help you turn the abstract into concrete. <br /> Book an
+                                advisory session today.
+                            </h4>
+                            <a href="https://strategyhut.typeform.com/to/HekpVt"
+                                target="_blank" class="buttonLink">Get Started</a>
+                        </div>
+                    </div>
+                </section>
+
+    </div>
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+
+                    

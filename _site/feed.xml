@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lek Syde.Github.Io</title>
+    <description>Programming and a Bunch of other stuffs!</description>
+    <link>http://leksyde.com/</link>
+    <atom:link href="http://leksyde.com//feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Partnership with the firm</title>
+        <description>
+          
+          As a world class model, June Wisse presents the website, JuneWisse.com, which has been designed as an online platform that showcases her work and brand. JuneWisse.com displays June Wisse’s works and her experience as a fashion model. The online portfolio serves as a visual representation of June Wisse’s works including...
+        </description>
+        <pubDate>Fri, 27 Dec 2019 00:00:00 +0100</pubDate>
+        <link>http://leksyde.com//2019-12-27-Introducing-JuneWisse.com/</link>
+        <guid isPermaLink="true">http://leksyde.com//2019-12-27-Introducing-JuneWisse.com/</guid>
+      </item>
+    
+  </channel>
+</rss>
