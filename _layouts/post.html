@@ -51,13 +51,10 @@ layout: jwblogdetail
 
                                      {% if post.image %}
 
-                                     <div class="col col-1-2 elToFix">
-              <div class="imageContent imageContent-inline">
-          <img src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" width="517" height="451" alt="{{ page.title }}"
-                  width="3112" height="2428" />
-
-
-              </div>
+               <div class="col col-1-2 elToFix">
+                               <div class="imageContent imageContent-inline">
+     <img src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}"  />
+                    </div>
               
 
             </div>
