@@ -1,89 +1,35 @@
 ---
-layout: jwblogdetail
+layout: todoblogdetail
 ---
 
 
 
 
 
+    <div class="blog__header">
+        <div class="blog__header-container">
+            <div class="blog__header-title">
 
 
- <div id="container">
-       <div class="page" view-controller="News" page-url="https://www.news.strategyhut.com">
-    <div class="cont">
-
-    
-
-
-      <section>
-        
-<div class="introductionText introductionText-hasRightText introductionText-willFix">
-  <div class="introductionTextCont">
-          <h1>
-                  <a href="/"><span></span>
-                Back to News
-                  </a>
-              </h1>
-              <h2>
-       {% if page.title %}{{ page.title }}{% else %}{% endif %}
-      </h2>
-              <div class="textContent rightText rightText-caps">
-        <p>{{ page.date | date: "%B %-d, %Y" }}</p>
-      </div>
-    </div>
-</div>
-      </section>
-
-
-
-            <section class="section-newsPost  section-hasFixedEls">
-        <div class="cols">
-
-
-          <div class="col col-12 elToFix">
-            <div class="textContent ">
-         
-          {{ content }}
+                <h1 class="blog__header-title">{% if page.title %}{{ page.title }}{% else %}{% endif %}</h1>
             </div>
-          </div>
-
-          <div class="col col-1-18 col-empty"></div>
-
-                                     {% if post.image %}
-
-               <div class="col col-1-2 elToFix">
-                               <div class="imageContent imageContent-inline">
-     <img src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}"  />
-                    </div>
-              
-
+            <div class="blog__header-info">
+                <div class="blog__header-date">{{ page.date | date: "%B %-d, %Y" }}</div>
+                <div class="blog__header-links">
+                    <ul class="blog__header-link-list">
+                                <li class="blog__header-link-item"><a href="">Blog</a></li>
+                    </ul>
+                </div>
             </div>
-                                   
-                                    {% endif %}
-                  </div>
-      </section>
-
-       <br /> <br />
-
-
-
-                <section>
-                    <div class="joinTeam">
-                        <div class="textContent">
-
-                            <h4>
-                                Let us help you turn the abstract into concrete. <br /> Book an
-                                advisory session today.
-                            </h4>
-                            <a href="https://strategyhut.typeform.com/to/HekpVt"
-                                target="_blank" class="buttonLink">Get Started</a>
-                        </div>
-                    </div>
-                </section>
-
+        </div>
     </div>
-  </div>
-  </div>
+  
+   
+<div class="rta">
+ {{ content }}
+</div>  
+
+
 
 
 

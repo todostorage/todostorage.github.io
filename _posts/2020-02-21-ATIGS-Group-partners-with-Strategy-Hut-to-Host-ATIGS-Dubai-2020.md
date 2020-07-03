@@ -3,10 +3,11 @@ title: ATIGS Group partners with Strategy Hut to Host ATIGS Dubai 2020
 date: 2020-02-21 00:00:00 +01:00
 tags:
 - me
-layout: post-video
+layout: post
 subtitle: 
-bigimg: https://res.cloudinary.com/strategyhut/image/upload/v1582290381/ATIGS-SH-G_pmn2hf.png
-image: https://res.cloudinary.com/strategyhut/image/upload/v1582061459/ATIGS_BANNER_1_hxeyyy.jpg
+bigimg: "/img/raitings.png"
+image: https://res.cloudinary.com/moversng/image/upload/v1593675389/TODO%20STORAGE/ogbanner1_xl2rsb.png
+
 ---
 
 Leading Africa business development company, ATIGS Group is proud to announce a partnership with Strategy Hut to host the 2020 Africa Trade and Investment Global Summit (ATIGS) on October 28 & 29, 2020 in Dubai, United Arab Emirates.

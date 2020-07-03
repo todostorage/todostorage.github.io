@@ -1,35 +1,65 @@
 ---
-layout: home-blog
+layout: todostoragebloghome
 subtitle: 
 use-site-title: true
 ---
-   {% for post in paginator.posts %} 
- <div class="postList-item">
-                                <div class="cols">
-                                    <div class="col col-4-9">
-                                        <div class="textContent">
-                                            <h5>{{ post.date | date: "%-d" }} {{ post.date | date: "%B, %Y" }}</h5>
-                                             <a href="{{ post.url | prepend: site.baseurl }}"><h3>{{ post.title }} </h3></a>
-                                            <p>
-                                                 {{ post.excerpt | strip_html | truncatewords:30 }}
-                                            </p>
-                                            <p class="viewStory"><a href="{{ post.url | prepend: site.baseurl }}">View story</a></p>
-                                        </div>
-                                    </div>
-                                    <div class="col col-1-18 col-empty"></div>
 
-                                     {% if post.image %}
-                                    <div class="col col-4-9">
-                                        <a href="{{ post.image }}">
-                                            <div class="imageContent imageContent-inline">
-                                                <img src="{{ post.image }}" width="1500" height="913" />
-                                            </div>
-                                        </a>
+<ul class="blog-articles__list">
+   {% for post in paginator.posts %} 
+
+
+  
+                        <li class="blog-articles__list-item">
+                            <a href="{{ post.url | prepend: site.baseurl }}">
+                                    {% if post.image %}
+                                    <img src="{{ post.image }}" alt="" class="blog-articles__item-image" width="375px" />
+                                     {% endif %}
+                            </a>
+                            <div class="blog-articles__item-content">
+                                <a href="{{ post.url | prepend: site.baseurl }}">
+                                    <h4 class="blog-articles__item-header">{{ post.title }}</h4>
+                                </a>
+
+                                <p>
+                                    {{ post.excerpt | strip_html | truncatewords:30 }} 
+                                </p>
+                                <div class="blog__header-info">
+                                        <div class="blog__header-date">{{ post.date | date: "%-d" }} {{ post.date | date: "%B, %Y" }}</div>
+                                    <div class="blog__header-links">
+                                        <ul class="blog__header-link-list">
+                                                    <li class="blog__header-link-item"><a href="{{ post.url | prepend: site.baseurl }}">Read More</a></li>
+                                        </ul>
                                     </div>
-                                    {% endif %}
                                 </div>
                             </div>
+                        </li>
+                 
+
 
    {% endfor %}
+</ul>
+
+{% if paginator.total_pages > 1 %}
+<div class="blog-articles__controls">
+    {% if paginator.previous_page %}
+                           
+                            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="blog-articles__controls-prev ">
+                                <span class="blog-articles__controls-prev-text">Previous</span>
+                            </a>
+  {% endif %}
+
+  {% if paginator.next_page %}
+                        
+                            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="blog-articles__controls-next">
+                                <span class="blog-articles__controls-next-text">Next </span>
+                            </a>
+  {% endif %}
+                    </div>
+{% endif %}
+
+
+
+
+
   
                     

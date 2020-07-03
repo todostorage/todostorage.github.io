@@ -6,9 +6,7 @@ tags:
 layout: post
 subtitle: 
 bigimg: "/img/raitings.png"
-height: 1804
-width: 1028
-image: https://res.cloudinary.com/strategyhut/image/upload/v1582061459/ATIGS_BANNER_1_hxeyyy.jpg
+image: https://www.accessstorage.com/-/media/images/feature-images/2019_05_30_friendly-divorce-advice/2019_05_30_friendly-divorce-advice.jpg
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Lek Syde.Github.Io
+title: LekSyde.Github.Io
 timezone: Africa/Lagos
 collections:
   posts:
@@ -55,7 +55,7 @@ title-separator: "-"
 markdown: kramdown
 highlighter: rouge
 permalink: "/:year-:month-:day-:title/"
-paginate: 6
+paginate: 12
 kramdown:
   input: GFM
 link-tags: true
