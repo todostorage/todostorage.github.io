@@ -7,7 +7,6 @@ layout: post
 subtitle: 
 bigimg: "/img/raitings.png"
 image: https://res.cloudinary.com/moversng/image/upload/v1593675389/TODO%20STORAGE/ogbanner1_xl2rsb.png
-
 ---
 
 hmm

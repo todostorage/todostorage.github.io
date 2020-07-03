@@ -7,7 +7,6 @@ layout: post
 subtitle: 
 bigimg: "/img/raitings.png"
 image: https://www.accessstorage.com/-/media/images/feature-images/2019_05_30_friendly-divorce-advice/2019_05_30_friendly-divorce-advice.jpg
-
 ---
 
 Leading Africa business development company, ATIGS Group is proud to announce a partnership with Strategy Hut to host the 2020 Africa Trade and Investment Global Summit (ATIGS) on October 28 & 29, 2020 in Dubai, United Arab Emirates.
