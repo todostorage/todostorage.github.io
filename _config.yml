@@ -1,6 +1,6 @@
 ---
-title: LekSyde.Github.Io
-timezone: Africa/Lagos
+title: TODOSTORAGEBLOG
+timezone: Pacific/Pago_Pago
 collections:
   posts:
     title: Posts
@@ -22,7 +22,7 @@ defaults:
     layout: page
     show-avatar: true
 url: http://leksyde.com/
-baseurl: ''
+baseurl: 
 description: Programming and a Bunch of other stuffs!
 navbar-links:
   About Me: aboutme
