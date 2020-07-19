@@ -1,6 +1,6 @@
 ---
 title: Power of going deep
-date: 2020-02-21 00:00:00 +01:00
+date: 2020-02-20 12:00:00 -11:00
 tags:
 - me
 subtitle: 

@@ -1,6 +1,6 @@
 ---
 title: Renewing The Mind
-date: 2020-06-21 00:00:00 +01:00
+date: 2020-06-20 12:00:00 -11:00
 tags:
 - me
 subtitle: 
